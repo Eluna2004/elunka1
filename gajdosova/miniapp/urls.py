@@ -2,4 +2,4 @@ from django.urls import path
 
 from . import views
 
-urlpatterns = path('', views.models_list)
+urlpatterns = path('randomnumber/', views.models_list)

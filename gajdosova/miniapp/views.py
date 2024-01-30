@@ -6,4 +6,5 @@ from django.http import HttpResponse
 # Create your views here.
 
 def models_list(reguest):
-    return HttpResponse("testing of views")
+    random_number = random.randint(1, 100)
+    return HttpResponse(f"random number {random_number}")
