@@ -12,3 +12,5 @@ class post(models.Model):
     mood=models.CharField(max_length=200, default="x")
     amount=models.DecimalField(max_digits=10, decimal_places=2)
 
+class Expense(models.Model):
+    amount = models.DecimalField(max_digits=10, decimal_places=2, default="")
